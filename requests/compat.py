@@ -92,7 +92,7 @@ if is_py2:
     from .packages.urllib3.packages.ordered_dict import OrderedDict
     from httplib import IncompleteRead
 
-    builtin_str = str
+    builtin_str = unicode
     bytes = str
     str = unicode
     basestring = basestring
